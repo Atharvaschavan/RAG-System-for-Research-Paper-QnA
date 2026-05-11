@@ -1,0 +1,26 @@
+# Production-grade dependencies for Research Paper Q&A System
+# Python 3.10+
+
+# Core RAG Framework
+langchain==0.1.17
+langchain-community==0.0.36
+langchain-google-genai==1.0.3
+
+# Vector Database & Embeddings
+chromadb==0.4.24
+sentence-transformers==2.2.2
+
+# PDF Processing
+pymupdf==1.23.8
+
+# Frontend
+streamlit==1.31.1
+
+# Configuration
+python-dotenv==1.0.0
+
+# Optional: Development & Monitoring
+# uncomment for development:
+# pytest==7.4.3
+# black==23.12.1
+# pylint==3.0.3

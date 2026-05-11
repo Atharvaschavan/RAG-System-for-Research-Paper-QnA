@@ -74,7 +74,7 @@
 
 | Layer | Technology | Why |
 |-------|-----------|-----|
-| **LLM** | Gemini 1.5 Flash | Fast, free API, excellent context understanding |
+| **LLM** | Gemini 2.5 Flash | Fast, free API, excellent context understanding |
 | **Embeddings** | all-MiniLM-L6-v2 | Lightweight (~50MB), runs locally, 384-dim vectors |
 | **Vector DB** | ChromaDB | Lightweight, in-memory, perfect for prototypes |
 | **PDF Parsing** | PyMuPDF | Fast, accurate text extraction |

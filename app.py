@@ -16,6 +16,7 @@ import os
 import time
 import logging
 from dotenv import load_dotenv
+
 from rag_pipeline import build_rag_pipeline, ask, clear_cache
 
 # ── Logging ───────────────────────────────────────────────────────────────────
@@ -501,6 +502,6 @@ st.divider()
 st.markdown("""
 <div style='text-align:center;color:#64748b;font-size:0.85rem;padding:1rem;'>
 Made with ❤️ using LangChain, ChromaDB, and Streamlit · 
-<a href='https://github.com/' style='color:#a78bfa;text-decoration:none;'>View on GitHub</a>
+<a href='https://github.com/Jai-dayanand/RAG-System-for-Research-Paper-QnA' style='color:#a78bfa;text-decoration:none;'>View on GitHub</a>
 </div>
 """, unsafe_allow_html=True)
